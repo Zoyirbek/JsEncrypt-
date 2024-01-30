@@ -75,12 +75,12 @@ async function getKeyMaterial(password, salt) {
     );
 }
 
-encrypt("Привет мир!", 1234)
+encrypt("", 1234)
 .then(r => {
     console.log(r);
 });
 
-decrypt("CsdgIiR3x9e37tj/s59Y+Ka9kv4SAeqtcDPrlhrBn91beGoGq+UNMjBIzHjmZqDgYFGH0kJvyP7V+/m7Xp7yiQ==", 1234)
+decrypt("", 1234)
 .then(r => {
     console.log(r);
 });
